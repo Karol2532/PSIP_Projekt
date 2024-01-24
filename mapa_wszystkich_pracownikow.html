@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_064a60552ce582c342a606b3c658f08b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_064a60552ce582c342a606b3c658f08b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_064a60552ce582c342a606b3c658f08b = L.map(
+                "map_064a60552ce582c342a606b3c658f08b",
+                {
+                    center: [52.3, 21.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8f60ef9a2b6dbcd2242e4c0a89976e87 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_8f60ef9a2b6dbcd2242e4c0a89976e87.addTo(map_064a60552ce582c342a606b3c658f08b);
+        
+    
+            var marker_0c880c534209b148b7360a1c0d630960 = L.marker(
+                [52.2319581, 21.0067249],
+                {}
+            ).addTo(map_064a60552ce582c342a606b3c658f08b);
+        
+    
+        var popup_5c6b85369c74cd0e3d7e16e76b48e77c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f32adfbca7fe740ab7b4ae08c501090 = $(`<div id="html_4f32adfbca7fe740ab7b4ae08c501090" style="width: 100.0%; height: 100.0%;">Tu mieszka Karol Laska</div>`)[0];
+                popup_5c6b85369c74cd0e3d7e16e76b48e77c.setContent(html_4f32adfbca7fe740ab7b4ae08c501090);
+            
+        
+
+        marker_0c880c534209b148b7360a1c0d630960.bindPopup(popup_5c6b85369c74cd0e3d7e16e76b48e77c)
+        ;
+
+        
+    
+    
+            var marker_e9829ed4b13d407c384fc61e5cf8d7f4 = L.marker(
+                [50.2137321, 19.00588775660632],
+                {}
+            ).addTo(map_064a60552ce582c342a606b3c658f08b);
+        
+    
+        var popup_54678b300ea44a86d59b25f633508a9d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e39b055a70e5cc53d6574c3c8375326 = $(`<div id="html_2e39b055a70e5cc53d6574c3c8375326" style="width: 100.0%; height: 100.0%;">Tu mieszka Kacper Szyszka</div>`)[0];
+                popup_54678b300ea44a86d59b25f633508a9d.setContent(html_2e39b055a70e5cc53d6574c3c8375326);
+            
+        
+
+        marker_e9829ed4b13d407c384fc61e5cf8d7f4.bindPopup(popup_54678b300ea44a86d59b25f633508a9d)
+        ;
+
+        
+    
+    
+            var marker_183b59f89dc63453b4c9d9dc1cf2e323 = L.marker(
+                [53.4109383, 21.9312439],
+                {}
+            ).addTo(map_064a60552ce582c342a606b3c658f08b);
+        
+    
+        var popup_93f207284c460f21f59e9c745c19c7c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5fbcdfd97893aff61fe247a30dfad08c = $(`<div id="html_5fbcdfd97893aff61fe247a30dfad08c" style="width: 100.0%; height: 100.0%;">Tu mieszka Bartosz Baran</div>`)[0];
+                popup_93f207284c460f21f59e9c745c19c7c0.setContent(html_5fbcdfd97893aff61fe247a30dfad08c);
+            
+        
+
+        marker_183b59f89dc63453b4c9d9dc1cf2e323.bindPopup(popup_93f207284c460f21f59e9c745c19c7c0)
+        ;
+
+        
+    
+</script>
+</html>
